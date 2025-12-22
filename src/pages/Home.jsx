@@ -1,6 +1,7 @@
 import { ThemeToggle } from "../Components/ThemeToggle";
 import { StarBackground } from "../Components/StarBackground";
 import { Navbar } from "../Components/Navbar";
+import HeroSection from "../Components/HeroSection";
 
 
 export const Home = () => {
@@ -11,7 +12,11 @@ export const Home = () => {
 
         <StarBackground />
 
-        <Navbar />        
+        <Navbar />    
+
+        <main>
+            <HeroSection />
+        </main>    
     </div>
     )   
 }
