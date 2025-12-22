@@ -1,5 +1,6 @@
 import { ThemeToggle } from "../Components/ThemeToggle";
 import { StarBackground } from "../Components/StarBackground";
+import { Navbar } from "../Components/Navbar";
 
 
 export const Home = () => {
@@ -9,6 +10,8 @@ export const Home = () => {
         <ThemeToggle />
 
         <StarBackground />
+
+        <Navbar />        
     </div>
     )   
 }
