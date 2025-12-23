@@ -57,7 +57,7 @@ export const Navbar = () => {
             ))}
 
             {/* Social Icons */}
-            <a
+            {/* <a
               href="https://github.com/SaniyaBhagane"
               target="_blank"
               rel="noopener noreferrer"
@@ -73,7 +73,7 @@ export const Navbar = () => {
               className="text-foreground/70 hover:text-primary transition"
             >
               <Linkedin size={20} />
-            </a>
+            </a> */}
 
             {/* Theme Toggle (Desktop) */}
             <ThemeToggle />
@@ -113,7 +113,7 @@ export const Navbar = () => {
           ))}
 
           {/* Mobile Social Icons */}
-          <div className="flex gap-6 pt-4">
+          {/* <div className="flex gap-6 pt-4">
             <a
               href="https://github.com/SaniyaBhagane"
               target="_blank"
@@ -129,7 +129,7 @@ export const Navbar = () => {
             >
               <Linkedin size={24} />
             </a>
-          </div>
+          </div> */}
 
           {/* Theme Toggle (Mobile) */}
           <ThemeToggle />
