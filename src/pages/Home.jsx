@@ -6,6 +6,7 @@ import AboutMe from "../Components/AboutMe";
 import SkillsSection from "../Components/SkillsSection";
 import ProjectsSection from "../Components/ProjectsSection";
 import ContactSettings from "../Components/ContactSettings";
+import { Footer } from "../Components/Footer";
 
 
 export const Home = () => {
@@ -25,6 +26,8 @@ export const Home = () => {
             <ProjectsSection />
             <ContactSettings />
         </main>    
+
+        <Footer />
     </div>
     )   
 }
